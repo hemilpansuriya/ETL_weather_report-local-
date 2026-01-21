@@ -67,4 +67,3 @@ conn.close()
 #run this command to see output
 #python -c "import sqlite3; import pandas as pd; conn = sqlite3.connect('weather_warehouse.db'); print(pd.read_sql('SELECT city, time, temp_celsius FROM city_forecasts LIMIT 5', conn)); conn.close()"
 
-#HELLO
